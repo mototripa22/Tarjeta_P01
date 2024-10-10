@@ -1,0 +1,70 @@
+/* Ajustes generales */
+body {
+    font-family: Arial, sans-serif; /* Establecer la fuente para toda la página */
+    background-color: #f8f9fa; /* Color de fondo claro para la página */
+    margin: 0; /* Eliminar el margen predeterminado del body */
+    padding: 20px; /* Agregar un padding general alrededor de la página */
+    box-sizing: border-box; /* Asegurarse de que el padding se incluya en el ancho total del elemento */
+}
+
+/* Contenedor de la tarjeta */
+.blog-card {
+    background-color: white; /* Fondo blanco para el contenedor de la tarjeta */
+    border-radius: 16px; /* Bordes redondeados para la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor del contenedor */
+    max-width: 400px; /* Limitar el ancho máximo a 400px */
+    margin: 0 auto; /* Centrar horizontalmente el contenedor */
+    padding: 20px; /* Agregar espacio dentro del contenedor */
+    overflow: hidden; /* Ocultar cualquier contenido desbordante */
+    text-align: left; /* Alinear todo el contenido hacia la izquierda */
+    box-sizing: border-box; /* Incluir el padding dentro del ancho total del elemento */
+}
+
+/* Imagen */
+.blog-image {
+    width: auto; /* Mantener el ancho de la imagen automático para conservar proporciones */
+    max-width: 100%; /* Asegurarse de que la imagen no exceda el ancho del contenedor */
+    height: 200px; /* Fijar una altura específica para la imagen */
+    border-radius: 12px; /* Bordes redondeados para la imagen */
+    object-fit: cover; /* Ajustar la imagen para cubrir el espacio, sin deformarse */
+    margin: 0 auto 20px auto; /* Centrar la imagen horizontalmente y agregar espacio inferior */
+    display: block; /* Establecer la imagen como un bloque para que el margen automático funcione */
+}
+
+/* Estilo para la etiqueta de categoría */
+.blog-tag {
+    background-color: #d0a9f5; /* Color de fondo púrpura para la etiqueta */
+    color: white; /* Color de texto blanco */
+    display: inline-block; /* Mostrar como un elemento en línea con comportamiento de bloque */
+    border-radius: 12px; /* Bordes redondeados para la etiqueta */
+    font-size: 12px; /* Tamaño de fuente pequeño */
+    padding: 5px 10px; /* Espaciado interno para que la etiqueta se vea más grande */
+    margin-bottom: 15px; /* Espacio inferior entre la etiqueta y el contenido siguiente */
+}
+
+/* Título del blog */
+.blog-title {
+    font-size: 22px; /* Tamaño de fuente grande para el título */
+    margin: 15px 0; /* Espacio superior e inferior del título */
+    color: #333; /* Color de texto gris oscuro */
+}
+
+/* Descripción */
+.blog-description {
+    font-size: 14px; /* Tamaño de fuente mediano para la descripción */
+    color: #777; /* Color de texto gris para la descripción */
+    margin: 0 0 15px 0; /* Espacio inferior entre la descripción y el siguiente elemento */
+}
+
+/* Línea divisoria */
+.divider {
+    border-top: 1px solid #e0e0e0; /* Línea divisoria gris claro */
+    margin: 15px 0; /* Espacio superior e inferior alrededor de la línea */
+}
+
+/* Autor */
+.blog-author {
+    font-size: 13px; /* Tamaño de fuente pequeño para el autor */
+    color: #999; /* Color de texto gris claro */
+    margin-top: 10px; /* Espacio superior entre la línea divisoria y el autor */
+}
